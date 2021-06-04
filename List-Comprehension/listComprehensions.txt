@@ -1,0 +1,3 @@
+List Comprehensions:
+A readable way of transforming elements in a list --either by mapping or filtering.
+Like a combination of map, filter, and lambdas.

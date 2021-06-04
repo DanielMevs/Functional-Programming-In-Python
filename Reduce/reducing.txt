@@ -1,0 +1,12 @@
+Reducing
+What reduce allows us to do is take a list or any other iterable and reduce it down
+to a single value.
+
+Example: we could take a list of numbers and reduce them down to a sum/average.
+What reduce does is it starts with the first element in the list and builds on
+this initial value in some way until after we've processed all of our elements 
+we end up with the result
+
+Reduce takes a function and an iterable as arugments.
+
+Reduce must be imported from the functools library

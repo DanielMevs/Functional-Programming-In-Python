@@ -1,0 +1,28 @@
+
+things filter can help use with
+--------------------------------
+
+the next important built-in list funcition in python is called filter
+filter is used when you want to find all the elements in a list or
+some other type of iterable that fit some type of criteria.
+
+Ex1: we have a list of numbers and we want to get all the numbers from
+it taht are even
+
+Ex2: we have a list of employee data and we want to find the employees 
+from this list that make more than a certain amount per year
+
+Filter is very similar to  map. 
+We call it by passing it both a function and an iterable, such as a 
+list, tuple or set. 
+The main difference between filter and map, however, is the purpose of the
+function that we pass into it. 
+In map we pass in a function that returns a value for each element in an 
+array.
+
+filter(some_function, my_list)
+
+For filter, we pass in a function that returns either true or false for each
+element.
+If the function that we pass returns true for a given element then that 
+element is included in the final result, otherwise it's left out.

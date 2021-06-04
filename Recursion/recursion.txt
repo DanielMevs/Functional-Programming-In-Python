@@ -1,0 +1,4 @@
+Recursion
+When a function calls itself. Can solve complex problems
+In recursion, we always need to tell our function when to stop (a condition).
+L>This is to prevent infinite loops
