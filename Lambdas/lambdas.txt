@@ -1,0 +1,11 @@
+"Lambdas In Python"
+One-line, unnamed functions that can be defined inside larger exressions
+Syntax: The keyword lambda followed by some number of arguments separated
+by commas without parentheses and then a colon, followed by whatever we 
+want the return value to be.
+We don't need to use the return keyword with lambdas.
+Whatever is placed after the colon will be returned automatically.
+The Function body of a lambda expression is only allowed to be one 
+statement long.
+We can do an if else statement in a lambda expression, but we can use
+a turnary operator.

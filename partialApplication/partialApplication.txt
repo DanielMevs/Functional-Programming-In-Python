@@ -1,0 +1,26 @@
+Partial Application
+When we take a function that has some number of arguments, and we fix some of those
+arguments to a set value.
+We then return a function that has less arguments than the original.
+
+def add(x, y, z):
+	return x + y + z
+        |
+        |
+        V
+def add5(y, z):
+	return 5 + y + z
+		|
+		|
+		V
+def add5( 6, 7) #->18
+
+This function with fixed arguments can then be called from anywhere else in the code
+and it will be as if we had called the original function with all of its arguments.
+
+Partial application is a very useful way to configure more general functions into more
+specific ones.
+L>If there is a function that we use often in our code where one or more of the arguments
+that we call it with is almost always the same, then this function is a good candidate for
+using partial application.
+
